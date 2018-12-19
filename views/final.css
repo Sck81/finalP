@@ -1,0 +1,341 @@
+body {
+  background-image: url("rbs.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+h1, h2, h3{
+  font-weight: 400;
+}
+
+a:hover, a:visited, a:link, a:active {
+   text-decoration: none;
+}
+
+/* navbar */
+.navbar {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ display: flex;
+ justify-content: space-between;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-size: 12px;
+}
+
+ul{ 
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: darkcyan;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ background-color: white;
+}
+
+li a:hover {
+ background-color: darkcyan;
+ color: white;
+ transition: 0.3s ease;
+}
+
+.welcome, .major1, .person, .headings{
+  color: white;
+  text-transform: uppercase;
+}
+
+.welcome, .major1, .person{
+ text-align: center;
+ font-size: 48px; 
+}
+
+.select1, .cORe, .classT{
+ text-align: center;
+ color: white;
+ font-size: 30px; 
+}
+
+/* reviews */
+.reviewHeader {
+ display: flex;
+ justify-content: space-between;
+}
+
+.date {
+ color: #555;
+}
+
+.yeet {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ align-items: space-between;
+}
+
+/* buttons styling */
+
+.button {
+ color: darkcyan;
+ font-size: 14px;
+ padding: 10px;
+ cursor: pointer;
+ display: flex;
+ justify-content: space-around;
+ width: 300px;
+ height: 100px;
+ margin: 10px;
+ border: 0;
+ background:white;
+ text-transform: uppercase;
+}
+
+.button:hover {
+ background-color: darkcyan;
+ color: white;
+ transition: 0.3s ease;
+}
+
+.action {
+ font-size: 12px;
+ padding: 15px;
+ width: auto;
+ height: auto;
+ display: inline;
+ margin: auto;
+}
+
+.scale .classbt {
+ background-color: white;
+ border: 1px white;
+ color: black;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ cursor: pointer;
+ width: 75%;
+ display: block;
+ margin: auto;
+ background: rgba(255, 255, 255, 0.7);
+}
+
+.scale .classbt:not(:last-child) {
+ border-bottom: none; /* Prevent double borders */
+}
+
+.scale .classbt:hover, .scalep .profbt:hover {
+ background: darkcyan;
+ color: white;
+ transition: 0.2s ease;
+}
+
+.scalep .profbt {
+ background-color: white;
+ border: 0;
+ color: black;
+ padding: 15px 500px;
+ font-size: 16px;
+ display: flex;
+ justify-content: space-around;
+ width: 300px;
+ height: 50px;
+ background: rgba(255, 255, 255, 0.7)
+}
+
+.scalep .profbt:not(:last-child) {
+ border-bottom: none; 
+}
+
+.profrate{
+ display: flex;
+ justify-content: center;
+}
+
+.num {
+ background-color: black;
+ padding: 10px 30px;
+ font-size: 20px;
+ margin-bottom: 10px;
+ text-transform: uppercase;
+ color: white;
+}
+
+.top-left {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.left {
+  margin-top: 20px;
+  float: right;
+}
+
+.box1 {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.wrapper {
+  background: rgba(255, 255, 255, 0.7);
+  color: black;
+  padding: 15px 25px;
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score {
+  color: green;
+  font-size: 40px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+/* check this */
+.rate {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+}
+
+.review {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.reviewLine {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.details {
+  padding: 0;
+  text-transform: none;
+}
+
+.seebtn{
+ border: 1px black;
+ text-align: center;
+ font-size: 25px;
+ cursor: pointer;
+ width: 30%;
+ display: block;
+ margin: auto;
+ border-radius: 3px;
+}
+
+.writingR {
+ border: 1px white;
+ color: black;
+ padding: 15px 32px;
+ text-align: left;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 25px;
+ cursor: pointer;
+ width: 75%;
+ display: block;
+ margin: auto;
+ background: rgba(255, 255, 255, 0.7);
+}
+
+
+hr {
+  border: 0.5px solid white;
+  margin-left: 0;
+}
+
+input, textarea {
+ -webkit-appearance: none;
+ border: 0px;
+ font-size: 20px;
+ padding: 10px;
+}
+
+/* form elements */
+#label {
+  margin-right: 10px;
+}
+
+label {
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  font-size: 14px;
+}
+
+.rtbtn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+ }
+ 
+ .rtbtn:hover {
+  background-color: lightgreen;
+  color: white;
+ }
+
+ .smaller {
+  width: 95%;
+ }
+
+ input[type="radio"]{
+  -webkit-appearance: radio;
+}
