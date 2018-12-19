@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include head %>
+    </head>
+    <body>
+        <% include header %>
+        <h2 class="classT">Databases & Web Applications</h2>
+        <div class="wrapper">
+            <div class="column">
+                <h3 class="headings">Add Review</h3>
+                <hr>
+                <form action="/final4" method="post">
+                    <div class="reviewLine smaller"><span id="label">Name:</span><input type="text" name="name"></div>
+                    <div class="reviewLine smaller">
+                        <span id="label">Rating:</span>
+                        <input type="radio" name="rating" id="1.0" value="1.0"><label for="1.0">1.0</label>
+                        <input type="radio" name="rating" id="1.5" value="1.5"><label for="1.5">1.5</label>
+                        <input type="radio" name="rating" id="2.0" value="2.0"><label for="2.0">2.0</label>
+                        <input type="radio" name="rating" id="2.5" value="2.5"><label for="2.5">2.5</label>
+                        <input type="radio" name="rating" id="3.0" value="3.0"><label for="3.0">3.0</label>
+                        <input type="radio" name="rating" id="3.5" value="3.5"><label for="3.5">3.5</label>
+                        <input type="radio" name="rating" id="4.0" value="4.0"><label for="4.0">4.0</label>
+                        <input type="radio" name="rating" id="4.5" value="4.5"><label for="4.5">4.5</label>
+                        <input type="radio" name="rating" id="5.0" value="5.0"><label for="5.0">5.0</label>
+                    </div>
+                    <div class="reviewLine smaller">
+                        <span id="label">Review:</span>
+                        <textarea name="details"></textarea>
+                    </div>
+
+                    <div class="reviewLine smaller">
+                        <div class="left">
+                            <a class="button action" href="final4.html">Cancel</a>
+                            <input type="submit" class="button action" value="submit">
+                        </div>
+                    </div>
+                </span>
+                </form>
+            </div>
+        
+        </div>
+    </body>
+</html>

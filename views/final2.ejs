@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="final.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>ProfessorHelp</title>
+    </head>
+    <body>
+        <a href="https://sims.rutgers.edu/webreg/"><i class="fa fa-graduation-cap" style="font-size:75px;color:white;" > </i></a>
+        <h1 class="major1">Business Analytics & Information Technology</h1>
+        <h2 class="cORe">Business Core Classes</h2>
+        <% items.forEach(function (item) { %>
+            <%if (item.CoreOrElect == 2) { %>
+            <div class="scale">
+                    <a href= <%= item.ClassID %> ><button class="classbt"><%= item.ClassSelectName %></button></a>
+            </div> 
+            <% } %>
+        <% }) %>  
+        <h2 class="cORe">Major Core Classes</h2>
+        <% items.forEach(function (item) { %>
+            <%if (item.CoreOrElect == 0) { %>
+            <div class="scale">
+                <a href= <%= item.ClassID %> ><button class="classbt"><%= item.ClassSelectName %></button></a>
+            </div> 
+            <% } %>
+        <% }) %> 
+        <h2 class="cORe">Electives</h2>
+        <% items.forEach(function (item) { %>
+            <%if (item.CoreOrElect == 1) { %>
+            <div class="scale">
+                <a href= <%= item.ClassID %> ><button class="classbt"><%= item.ClassSelectName %></button></a>
+            </div> 
+            <% } %>
+        <% }) %> 
+    </body>
+</html>
+

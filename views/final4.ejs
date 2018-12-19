@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/final.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>ProfessorHelp</title>
+    </head>
+    <body>
+        <a href="https://sims.rutgers.edu/webreg/"><i class="fa fa-graduation-cap" style="font-size:75px;color:white;" > </i></a>
+        <h1 class="person">Reviews for this Professor</h1>
+        <!--<h2 class="classT">Databases & Web Applications</h2>-->
+            <div class="review">
+                <a href=/review><button class="bt-review">Write a Review</button></a>  
+            </div>
+        <h3 class="box1"> Overall </h3>
+            <div class="rate">
+                4.5 Good!
+            </div>
+        <h3 class="box1"> Reviews </h3>   
+        <% items.forEach(function (item) { %>
+            <div class="reviewWrite">
+                <div class="reviewHeader">
+                    <div class="reviewerName"> <%= item.FirstName %> <%= item.LastName %> </div>
+                </div>
+                <div class="review"><%= item.Comment %> </div>
+            </div> 
+        <% }) %> 
+    </body>
+</html>
+
