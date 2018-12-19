@@ -1,0 +1,281 @@
+body {
+   background-image: url("rbs.jpg");
+   height: 100%; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   color: white;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.welcome, .major1, .person{
+	text-align: center;
+	color: white;
+	font-size: 48px; 
+}
+
+.select1, .cORe, .classT{
+	text-align: center;
+	color: white;
+  font-size: 30px; 
+}
+
+/* reviews */
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  color: #555;
+}
+
+.review {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-between;
+  word-wrap: break-word;
+}
+
+.yeet {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: space-between;
+}
+
+.btn-default {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn-default:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s ease;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 15px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 10px;
+}
+
+.info {
+	border: 0;
+	color:black;
+}
+
+.info:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.scale .classbt {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.scale .classbt:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.scale .classbt:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+.scalep .profbt {
+  background-color: white;
+  color: black;
+  padding: 15px 500px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  white-space: nowrap;
+}
+
+.scalep .profbt:not(:last-child) {
+  border-bottom: none; 
+}
+
+.scalep .profbt:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.profrate{
+	display: flex;
+	justify-content: center;
+}
+
+.num {
+  background-color: black;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.bt-review {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  width: 15%;
+  display: block;
+  margin-left: 1250px;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.box1 {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7)
+}
+.rate {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.reviewWrite {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.seebtn{
+  border: 1px black;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  width: 30%;
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.writingR {
+  background-color: white;
+  border: 1px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  width: 75%;
+  display: block;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.7)
+}
+
+.rscale {
+	display: flex;
+}
+
+.rtbtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.rtbtn {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.rtbtn:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  border: 0px;
+  font-size: 20px;
+  padding: 10px;
+}
