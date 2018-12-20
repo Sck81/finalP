@@ -126,12 +126,12 @@ li a:hover {
  background:white;
  text-transform: uppercase;
 }
-
+/*
 .btn-info:hover {
  background-color: darkcyan;
  color: white;
  transition: 0.3s ease;
-}
+}*/
 
 .action {
  font-size: 12px;
