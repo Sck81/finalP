@@ -104,20 +104,6 @@ li a:hover {
  background:white;
  text-transform: uppercase;
 }
-.btn info {
- color: darkcyan;
- font-size: 14px;
- padding: 10px;
- cursor: pointer;
- display: flex;
- justify-content: space-around;
- width: 300px;
- height: 100px;
- margin: 10px;
- border: 0;
- background:white;
- text-transform: uppercase;
-}
 
 .button:hover {
  background-color: darkcyan;
